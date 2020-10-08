@@ -10,7 +10,8 @@ const bemVindoEmMuitasLinguas = [
   'Witamy'
 ]
 
-const getRandomNumber = () => Math.floor((Math.random() * bemVindoEmMuitasLinguas.length))
+const getRandomNumber = () => (
+  Math.floor((Math.random() * bemVindoEmMuitasLinguas.length)))
 
 botao.addEventListener('click', () => {
   let random, text
@@ -20,5 +21,5 @@ botao.addEventListener('click', () => {
     text = bemVindoEmMuitasLinguas[random]
   } while (h1.textContent === text)
 
-  h1.textContent = bemVindoEmMuitasLinguas[random]
+  h1.textContent = text
 })
