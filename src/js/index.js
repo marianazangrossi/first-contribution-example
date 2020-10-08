@@ -7,7 +7,8 @@ const bemVindoEmMuitasLinguas = [
   'Bienvenue',
   'ようこそ',
   'Welkom',
-  'Witamy'
+  'Witamy',
+  'Teste'
 ]
 
 const getRandomNumber = () => Math.floor((Math.random() * bemVindoEmMuitasLinguas.length))
