@@ -1,5 +1,6 @@
-# Como contribuir?
+# Guia de contribuição
 
+## Como contribuir?
 1. Faça um fork do repositório.
 ![Passo 01](https://raw.githubusercontent.com/marianazangrossi/first-contribution-example/main/images/passo%201.png)
 2. Faça um clone do seu repositório na sua máquina.
@@ -25,3 +26,18 @@ git push origin NOME_DA_SUA_BRANCH
 ![Passo 04](https://raw.githubusercontent.com/marianazangrossi/first-contribution-example/main/images/passo%204.png)
 8. Pull Request aberto!! 🎉🎉🎉🎉🎉🎉
 ![Passo 05](https://raw.githubusercontent.com/marianazangrossi/first-contribution-example/main/images/passo%205.png)
+
+## Como atualizar meu repositório, depois que clonado?
+**Obs**: Após clonar seu repositório, é importante mantê-lo atualizado com o repositório original, pois pode haver alterações que conflitem com o que você alterou. Os passos a seguir deve ser feito no terminal, no seu repositório local.
+
+1. Adicione o repositório original como ``upstream``.
+```
+git remote add upstream https://github.com/marianazangrossi/first-contribution-example
+```
+
+2. Atualize seu repositório local
+```
+git pull upstream master
+```
+
+3. Continue fazendo suas alterações de acordo com a seção acima!
