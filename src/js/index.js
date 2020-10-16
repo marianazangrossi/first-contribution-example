@@ -8,6 +8,7 @@ const bemVindoEmMuitasLinguas = [
   'ようこそ',
   'Welkom',
   'Witamy',
+  'Bem-vindo seja você',
   'Olarom'
 ]
 
