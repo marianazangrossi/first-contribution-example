@@ -11,6 +11,7 @@ const bemVindoEmMuitasLinguas = [
   'Bem-vindo seja você',
   'Olarom',
   'Välkommen',
+  'Sea bienvenido',
 ]
 
 const getRandomNumber = () => (
